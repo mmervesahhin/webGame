@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WOW</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./animation.js"></script>
+    <script src="https://kit.fontawesome.com/e6dead3dfe.js" crossorigin="anonymous"></script>
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="./jquery.color.min.js"></script>
+    <script>
+        const falseAudio =new Audio();
+        falseAudio.src = "./audios/false.mp3";
+    </script>
+     <script>
+        const trueAudio =new Audio();
+        trueAudio.src = "./audios/true.mp3";
+    </script>
+    <script>
+        const againAudio =new Audio();
+        againAudio.src = "./audios/again.mp3";
+    </script>
+    <script>
+        const clickAudio =new Audio();
+        clickAudio.src = "./audios/click.mp3";
+    </script>
+</head>
+<body>
+    <div class="area">
+        <span>CTIS 255 - Project - Merve Sahin</span>
+        <div class="puzzle">
+            <div class="block SAYI SAYIM inital" style="top:70px; left:65px;">S</div>
+            <div class="block SAYIM initial" style="top:70px; left:120px;">A</div>
+            <div class="block SAYIM initial" style="top:70px; left:175px;">Y</div>
+            <div class="block SAYIM initial" style="top:70px; left:230px;">I</div>
+            <div class="block SAYIM MAYIS initial" style="top:70px; left:285px;">M</div>
+            <div class="block SAYI initial" style="top:125px; left:65px;">A</div>
+            <div class="block SAYI initial" style="top:180px; left:65px;">Y</div>
+            <div class="block SAYI initial" style="top:235px; left:65px;">I</div>
+            <div class="block MAYIS initial" style="top:125px; left:285px;">A</div>
+            <div class="block MAYIS AYI initial" style="top:180px; left:285px;">Y</div>
+            <div class="block MAYIS initial" style="top:235px; left:285px;">I</div>
+            <div class="block MAYIS YAS initial" style="top:290px; left:285px;">S</div>
+            <div class="block AYI initial" style="top:180px; left:340px;">I</div>
+            <div class="block AYI initial" style="top:180px; left:230px;">A</div>
+            <div class="block YAS initial" style="top:290px; left:230px;">A</div>
+            <div class="block YAS initial" style="top:290px; left:175px;">Y</div>
+        </div>
+        <div><i class="fa-solid fa-lightbulb fa-xl" id="bulb"></i></div>
+        <div class="widget">
+            <div class="guess">
+                <div class="word"></div>
+            </div>
+            <div class="letters" id="first">S</div>
+            <div class="letters" id="second">A</div>
+            <div class="letters" id="third">Y</div>
+            <div class="letters" id="fourth">I</div>
+            <div class="letters" id="fifth">M</div>
+            <div id="shuffle"><i class="fa-solid fa-shuffle fa-xl"></i></div>
+        </div>
+    </div>
+</body>
+</html>

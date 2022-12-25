@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+body {user-select: none;}
+
+.area {width:450px; height:800px; 
+        border:1px solid black; margin:0 auto;
+            background-image: url(./background.jpg); background-size: cover;
+                text-align: center; position: relative;}
+span {font-size: 25px; font-family: Roboto;
+        display:block; margin-top: 20px;}
+.block {width:50px; height:50px; background: white; 
+          border-radius: 5px; position: absolute;
+            font-family: Roboto; font-weight:700; font-size: 30px; 
+                color:white; line-height: 50px;} 
+.widget {width:250px; height: 250px; background-color: white;
+            border-radius: 100%; position:absolute; left:100px; top:500px;
+                opacity: 0.8;}
+.letters {font-size: 50px; font-family: Roboto; font-weight: 700;
+            line-height: 50px; position:absolute; border-radius: 50px;
+                height:50px; width:50px;}
+
+#first {top:90px; left:20px;}
+#second {top:170px; left:60px;}
+#third {top:170px; left:155px;}
+#fourth {top:90px; left:190px;}
+#fifth {top:20px; left:105px;}
+
+#first:hover {cursor:pointer;}
+#second:hover {cursor:pointer;}
+#third:hover {cursor:pointer;}
+#fourth:hover {cursor:pointer;}
+#fifth:hover {cursor:pointer;}
+
+#bulb {position: absolute; top:380px; left:380px;
+        height:50px; width:50px; border:2px solid brown;
+           border-radius: 50px; line-height: 50px; color:brown; 
+            background-color: burlywood;}
+#bulb:hover {cursor:pointer; background-color: blanchedalmond;}
+
+#shuffle {position: absolute; top:130px; left:115px; color:gray;}
+#shuffle:hover {cursor:pointer;}
+
+.guess {position: relative;}
+.word {background:brown; color:white; position: absolute; top:-70px;
+         height:50px; font-size: 25px; border-radius: 50px; letter-spacing: 10px;
+            line-height: 50px; font-family: Roboto; font-weight:700;}
